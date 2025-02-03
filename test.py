@@ -4,7 +4,7 @@
 # Description: This is our first script
 
 #name = "Erik Anderson"
-name = input("what is your name: ")
+name = input("Enter your name: ")
 
 print(f'My name is {name}')
 print("My name is", name)
