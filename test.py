@@ -1,9 +1,10 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python3
 # Author: EJA
 # Version: 0.1
 # Description: This is our first script
 
-name = "Erik Anderson"
+#name = "Erik Anderson"
+name = input("what is your name: ")
 
 print(f'My name is {name}')
 print("My name is", name)
