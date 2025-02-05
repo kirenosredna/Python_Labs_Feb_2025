@@ -20,6 +20,13 @@ use sys.exit (error code)
  no duplicates
 
 
+ regex was hard not getting it yet.
+
+ filesystem
+ open function r"raw string file path" modes second
+
+
+
 
 
 
