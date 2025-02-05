@@ -32,7 +32,7 @@ EOF = 2
 
 print('-' *60)
 with  open(r"yubby.txt", mode="rt") as fh_in:
-    fh_in.seek(-90, SOF)
+    fh_in.seek(90, SOF)
     text = fh_in.read(30)
     print(f"Text at {fh_in.tell() - len(text)}")
 
