@@ -1,5 +1,5 @@
 #! /usr/bin/python
-#  Chapter 5 Exercise 3
+#  Chapter 5 Exercise 4
 # Apply changes to a dictionary
              
 machines = {'user100': 'yogi',

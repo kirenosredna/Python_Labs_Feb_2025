@@ -59,3 +59,9 @@ if 5 in word_length_counts:
 if 7 in word_length_counts:
     count, word = word_length_counts[7]
     print(f"Length 7: Count = {count}, Example word = '{word}'")
+
+
+tup = 'Hello'
+print(len(tup))
+tup = 'Hello',
+print(len(tup))
