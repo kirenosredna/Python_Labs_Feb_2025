@@ -6,13 +6,22 @@
 """
 import random
 
-lotto = []
+# lotto = []
+#
+# while len(lotto) < 6:
+#     num = random.randint(1, 50)
+#     if num not in lotto:
+#         lotto.append(num)
+#     else:
+#         print(f"Duplicate number = {num}")
 
+# pythonic solution.
+lotto = set()
 while len(lotto) < 6:
     num = random.randint(1, 50)
-    if num not in lotto:
-        lotto.append(num)
-    else:
-        print(f"Duplicate number = {num}")
+    lotto.add(num)
 
 print(f"Lottery numbers = {lotto}")
+
+chapter 5
+question 1,2,4
