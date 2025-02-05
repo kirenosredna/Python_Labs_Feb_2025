@@ -13,6 +13,7 @@ use sys.exit (error code)
  ordered - arrays/vectors
 
  unordered - dictionaries key are unique
+ py3.6 insertion order for speed performance
 
 
  sets mutable
