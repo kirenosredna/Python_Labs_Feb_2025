@@ -1,0 +1,26 @@
+import sys
+use sys.exit (error code)
+
+
+ 0-255
+ 0 is success (
+ 1-255
+
+ Irn-bru
+
+
+ Collections
+ ordered - arrays/vectors
+
+ unordered - dictionaries key are unique
+
+
+ sets mutable
+ no duplicates
+
+
+
+
+
+
+
