@@ -23,5 +23,5 @@ while len(lotto) < 6:
 
 print(f"Lottery numbers = {lotto}")
 
-chapter 5
-question 1,2,4
+# chapter 5
+# question 1,2,4
