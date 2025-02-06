@@ -2,7 +2,12 @@
 # Author: Erik Anderson
 # Description: This script will demo how to display unused ports from etc/services
 """
-    Docstring:
+    set called all ports and use range function to generate ports 1- 200 = allports
+    allports = set(range(1, 201))
+    usedports = set()
+    add etc/services from  windows/system32/drivers/
+    (\d+)/(tcp|udp) regex
+    m.group
 """
 
 import re
