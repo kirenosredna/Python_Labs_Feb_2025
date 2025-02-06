@@ -28,7 +28,8 @@ def main():
         print(f"Square root of 25 = {adv.sqrt(25)}")
     else:
         print("invalid option")
-        return None
+
+    return None
 
 # namespace trick
 if __name__ == "__main__":
