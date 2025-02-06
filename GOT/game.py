@@ -24,8 +24,17 @@ def main():
     erik_tank.take_damage(2)
     zane_tank.take_damage(32)
 
+    # visuals ;-)
+    #print(f"Health of Erik's tank is {erik_tank._health}")
+    #example of operator overloading
+    print(f"Status of Erik's and Zane's tank is {erik_tank + zane_tank}")
+
+    erik_tank.set_health(101)
+    erik_tank.tank_health = 102
+    print(f"New health of Erik's tank is {erik_tank.get_health()}")
+    print(f"New health of Erik's tank is {erik_tank.tank_health}")
     return None
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()
     sys.exit(0)

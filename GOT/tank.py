@@ -40,4 +40,34 @@ class Tank:
         self._health -= damage
         return None
 
+    # some special methods
+    # example of operator overloading
+    def __add__(self, other):
+        return self._health + other._health
+
+    def __del__(self):
+        print("Boom..boom.boom!")
+        return None
+
+    def get_health(self):
+        return self._health
+
+    def set_health(self, newhealth):
+        self._health = newhealth
+        return None
+
+    #wrap access to the getter and setter using ONE variable name. Get first then set methods
+    tank_health = property(get_health, set_health)
+
+    # Alternative using DECORATORS
+    @property
+    def tank_health(self):
+        return self._health
+
+    @tank_health.setter
+    def tank_health(self, newhealth):
+        self._health = newhealth
+        return None
+
+
 
