@@ -19,11 +19,14 @@ def sqrt(x):
     """ return square root of x"""
     return round(x**0.5, 2)
 
-print(f"Advanced Calculator App")
-print("-" * 30)
+def main():
+    print(f"Advanced Calculator App")
+    print("-" * 30)
+    print(f"100 % 30 = {mod(100, 30)}")
+    print(f"100 ** 3 = {power(100, 3)}")
+    print(f"\N{square root}100 = {sqrt(100)}")
 
-print(f"100 % 30 = {mod(100, 30)}")
-print(f"100 ** 3 = {power(100, 3)}")
-print(f"\N{square root}100 = {sqrt(100)}")
-
-sys.exit(0)
+# namespace trick
+if __name__ == "__main__":
+    main()
+    sys.exit(0)
