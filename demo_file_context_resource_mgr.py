@@ -11,14 +11,14 @@
 """
     Docstring:
 """
-movies = { 'william': ['fury', 'pulp fiction', 'shawshank redemption'],
-           'kirill': ['pulp fiction', 'the departed', 'snatch'],
-           'mark': ['fifth element', 'armageddon', 'slapshot'],
-           'erik': ['star wars', 'blue velvet', 'dune']
-
-
-           }
-filename = "yubby.txt"
+# movies = { 'william': ['fury', 'pulp fiction', 'shawshank redemption'],
+#            'kirill': ['pulp fiction', 'the departed', 'snatch'],
+#            'mark': ['fifth element', 'armageddon', 'slapshot'],
+#            'erik': ['star wars', 'blue velvet', 'dune']
+#
+#
+#            }
+filename = "c:\Windows\System32\drivers\etc\services"
 with open(r"yubby.txt", mode="wt") as fh_out:
 
 # iterate through dict  and write keys+values to file

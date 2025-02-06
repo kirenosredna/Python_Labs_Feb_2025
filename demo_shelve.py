@@ -30,3 +30,11 @@ with shelve.open(r"movies") as db:
 with shelve.open(r"movies") as db:
     print(f"{db['movies']['william']}")
     print(f"{db['tv_series']['kirill'][0]}")
+
+    set called all ports and use range function to generate ports 1- 200 = allports
+    allports = set(range(1, 201))
+    usedports = set()
+    add etc/services to in windows32
+
+    (\dt)/(tcp|udp)
+    m.group
