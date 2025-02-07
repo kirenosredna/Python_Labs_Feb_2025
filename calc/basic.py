@@ -8,7 +8,10 @@
 import sys
 
 def add(*args):
-    """ return sum of all parameters"""
+    """ return sum of all parameters
+    >>> add(4 + 3)
+    7
+    """
     total = 0
     for num in args:
         total += num
