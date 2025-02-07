@@ -41,5 +41,7 @@ def main():
 
 # namespace trick
 if __name__ == "__main__":
+    import doctest
+    doctest
     main()
     sys.exit(0)
